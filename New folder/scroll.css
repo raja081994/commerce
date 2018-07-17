@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+h1{
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+}
+.top_right{
+    float: right;
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+    line-height: 1cm;
+    word-spacing: 0.01cm;
+    color: white;
+    letter-spacing: 0.01ch;
+    
+    font-size: medium;
+    font-weight: bold;
+}
+.header{
+    font-weight: bold;
+    float: right;
+}
+.log:hover{
+   opacity: 0.8;
+}
+.create:hover{
+   opacity: 0.8;
+}
+
+.menu ul li img{
+    width: 200px;
+    height: 50px;
+   
+}
+.menu ul li{
+    list-style: none;
+    margin: 15px;
+    
+    
+}
+.menu{
+    text-transform: uppercase;    
+    margin: 5px; 
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.menu ul li a:hover{
+    opacity: 0.3;
+    background-color: RoyalBlue;
+    transition: 0.6s ease;
+}
+
+.slideshow-container img{
+    image-resolution: 100% 100%;
+    width: 1240px;
+    height: 628px;
+    top: 59px;
+}
+
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: auto;
+    padding: 16px;
+    margin-top: -2px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  .next {
+    right: 20px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+
+  /* Fading animation */
+  .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    } 
+    .store{
+        width: 280px;
+        display: inline-block;
+        margin: 70px;
+    }
+    .store img{
+        width: 100%;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    footer{
+        background-color: grey;
+        padding: 50px;
+    }
+    /* Create four equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 25%;
+        padding: 10px;
+        text-align: center;
+        height: 300px; 
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        background-color: grey;/* Should be removed. Only for demonstration */
+    }
+    h2{
+        font-size: 20px;
+    }
+    .column a{
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        line-height: 1cm;
+        display: block;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .payment{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .powered{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .column li a{
+        list-style: none;
+        text-decoration: none;
+    }
+    .column a:hover{
+        opacity: 0.5;
+    }
